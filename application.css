@@ -1,3 +1,8 @@
+.main {
+  text-align: center; 
+  display: block; 
+}
+
 h4 {
   color: darkblue;
   cursor: pointer;
@@ -9,8 +14,8 @@ h4:hover {
 
 #rainbow {
   position: absolute;
-  top: 0;
-  left: 300px;
+  top: 20%;
+  left: 40%;
 }
 
 h3 {
@@ -20,8 +25,8 @@ h3 {
 
 .red {
   background-color: red;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
 }
 
 .orange {
@@ -38,14 +43,14 @@ h3 {
 
 .green {
   background-color: green;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
 }
 
 .blue {
   background-color: blue;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
 }
 
 .indigo {
@@ -56,14 +61,32 @@ h3 {
 
 .violet {
   background-color: darkviolet;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
 }
 
 .active {
+  font-weight: 700;
 }
 
 a {
   display: block;
   margin-bottom: 10px;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.nav {
+  position: relative;
+  margin: 0 auto; 
+  font-size: 20px; 
+}
+
+.box {
+  text-align: center; 
+}
+

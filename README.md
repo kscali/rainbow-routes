@@ -1,1 +1,1 @@
-This is just a basic app that I created to work with React Router. This app displays the colors of the rainbow but this rainbow is different, in that some of the colors are nested within others. 
+This is a basic app that I created to work with React Router. This app displays the colors of the rainbow but this rainbow is different in that some of the colors are nested within others. 
